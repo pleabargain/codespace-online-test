@@ -1,0 +1,12 @@
+; Engine configuration file.
+; It's best edited using the editor.
+; If you have to edit this file by hand, make sure all indentation is tabs and not spaces.
+
+[application]
+
+config/name="MoonSimulator"
+run/main_scene="res://Main.tscn"
+config/icon="res://icon.png"
+
+[rendering]
+environment/default_environment="res://default_env.tres"

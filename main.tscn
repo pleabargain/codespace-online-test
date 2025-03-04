@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://3vfxm32m4icku"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("uid://2xdzv6mg7mlwu")
+
+[node name="MoonScape" type="Node2D" parent="."]
+
+[node name="Lander" type="KinematicBody2D" parent="."]
+position = Vector2(400, 100)
+script = ExtResource("uid://2xdzv6mg7mlwu")
+
+[node name="Sprite" type="Sprite" parent="Lander"]
+texture = ExtResource("uid://1ks5t5tq8zj9w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lander"]
+shape = SubResource("CollisionShape2D_0")
+
+[resource type="RectangleShape2D" id="CollisionShape2D_0"]
+extents = Vector2(16, 16)

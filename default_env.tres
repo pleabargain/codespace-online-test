@@ -1,0 +1,10 @@
+[gd_resource type="Environment" load_steps=2 format=2]
+
+[resource]
+background_mode = 2
+background_color = Color( 0, 0, 0, 1 )
+ambient_light_color = Color( 1, 1, 1, 1 )
+ambient_light_energy = 0.5
+background_sky_custom_fov = 70.0
+background_sky_orientation = Quat( 0, 0, 0, 1 )
+background_canvas_max_layer = 0
